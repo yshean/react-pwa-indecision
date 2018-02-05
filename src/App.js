@@ -5,6 +5,7 @@ import Action from "./components/Action";
 import Header from "./components/Header";
 import Options from "./components/Options";
 import OptionModal from "./components/OptionModal";
+import "./styles/styles.css";
 
 export default class IndecisionApp extends React.Component {
   constructor(props) {
