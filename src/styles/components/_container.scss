@@ -1,0 +1,5 @@
+.container {
+    max-width: 60rem;
+    margin: 0 auto; // (70-60)/2 = 5 rem each on both sides
+    padding: 0 $m-size;
+}

@@ -2,8 +2,67 @@ html {
   font-size: 62.5%; }
 
 body {
+  background: #333745;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem; }
+
+button {
+  cursor: pointer; }
+
+button:disabled {
+  cursor: default; }
+
+.add-option-error {
+  color: #a5afd7;
+  font-style: italic;
+  margin: 1.6rem 0 0 0;
+  padding: 0 1.6rem; }
+
+.add-option {
+  display: flex;
+  padding: 1.6rem; }
+
+.add-option__input {
+  background: #333745;
+  border: none;
+  color: #a5afd7;
+  border-bottom: 0.3rem solid #1d2028;
+  flex-grow: 1;
+  margin-right: 1.2rem;
+  padding: 1.2rem; }
+
+.big-button {
+  background: #8357c5;
+  border: none;
+  border-bottom: 0.6rem solid #693cad;
+  color: white;
+  font-weight: bold;
+  font-size: 3.2rem;
+  margin-bottom: 4.8rem;
+  padding: 2.4rem;
+  width: 100%; }
+
+.big-button:disabled {
+  opacity: .5; }
+
+.button {
+  background: #8357c5;
+  border: none;
+  border-bottom: 0.3rem solid #693cad;
+  color: white;
+  font-weight: 500;
+  padding: 1.2rem; }
+
+.button--link {
+  background: none;
+  border: none;
+  color: #a5afd7;
+  padding: 0; }
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.6rem; }
 
 .header {
   background: #20222b;
@@ -19,4 +78,37 @@ body {
   color: #a5afd7;
   font-size: 1.6rem;
   font-weight: 500;
+  margin: 0; }
+
+.option {
+  border-bottom: 1px solid #5c627b;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem 1.6rem; }
+
+.option__text {
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0; }
+
+.widget {
+  background: #464b5e;
+  margin-bottom: 4.8rem; }
+
+.widget__message {
+  color: #a5afd7;
+  margin: 0;
+  padding: 3.2rem;
+  text-align: center;
+  border-bottom: 1px solid #5c627b; }
+
+.widget-header {
+  background: #3c4251;
+  color: #a5afd7;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem; }
+
+.widget-header__title {
   margin: 0; }
